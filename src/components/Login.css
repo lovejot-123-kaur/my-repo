@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html, #root {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  overflow-y: auto;
+}
+
+.container {
+  min-height : 100vh;
+  display: flex;
+}
+
+/* LEFT SIDE */
+.left {
+  flex: 1;
+  background-color: #bfd8cc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.lovebirds-img {
+  max-width: 280px;
+  margin-bottom: 1.5rem;
+}
+
+.left-heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.left-text {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* RIGHT SIDE */
+.right {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.logo {
+  .logo {
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #444;
+  font-size: 2rem;
+  margin-top: -2rem; /* optional if you want to nudge it up */
+  align-self: flex-start;
+}
+
+}
+
+.right h2 {
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-options {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.form-options a {
+  font-size: 0.9rem;
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.sign-in-btn {
+  padding: 0.75rem;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.google-btn {
+  padding: 0.75rem;
+  background-color: white;
+  color: #444;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.divider {
+  text-align: center;
+  margin: 1rem 0;
+  color: #aaa;
+}
+
+.signup-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.signup-text a {
+  color: #4CAF50;
+  text-decoration: none;
+}
